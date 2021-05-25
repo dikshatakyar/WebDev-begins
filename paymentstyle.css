@@ -1,0 +1,66 @@
+*{
+     box-sizing:border-box;
+}
+body{
+font-family:'IBM Plex Serif', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin: 10px 10px;
+padding: 10px;
+font-size: 20px;
+}
+.classone{
+    background-color:rgba(229, 243, 229, 0.657);
+    padding: 20px 10px 13px 12px;
+    border: 10px double rgb(240, 100, 100);
+    border-radius: 10px 100px / 120px;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="password"],select,textarea{
+    width: 80%;
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid burlywood;
+    border-radius: 30px;
+}
+
+.heading{
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding: 15px;
+    margin: 12px;
+    width: 70%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    color: azure;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+input[type="reset"]{
+    width:25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkseagreen;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+input[type="submit"]:hover{
+    background-color: orangered;
+}
+input[type="reset"]:hover{
+    color: beige;
+    background-color:darkgreen ;
+}
+
+fieldset{
+    border: 3px solid burlywood;
+    background-color:white;
+    border-radius: 30px;
+    font-size: larger;
+    width: 45%;
+}
