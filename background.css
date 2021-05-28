@@ -1,0 +1,15 @@
+
+h1{
+    color:darkkhaki;
+    background-color: darkgreen;
+    width: auto;
+    text-align: center;
+}
+.first{
+    background-image: url("content/wallpaper.jfif");
+    width: 5000x;
+    height: 1000px;
+    color: beige;
+ background-repeat: repeat-x;
+ background-attachment:fixed;           
+}
