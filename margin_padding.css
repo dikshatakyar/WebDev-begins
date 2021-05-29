@@ -1,0 +1,16 @@
+
+.class3,.class2{
+    width: 80px;
+    height: 80px;
+}
+.class2{
+    background-color: aqua;
+    margin: 30px;
+}
+.class3{
+    background-color:aqua;
+    padding: 30px;
+}
+.class1{
+    background-color: crimson;
+}
