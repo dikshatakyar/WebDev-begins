@@ -1,0 +1,10 @@
+.hello{
+    color:brown;
+    font-weight: bold;
+    font-style: unset;
+}
+ul#Drinks li{
+    color:darkblue;
+    font-size: 30px; 
+    font-style: italic;   
+}
