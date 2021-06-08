@@ -1,0 +1,35 @@
+#first{
+    z-index: 1;
+  position:absolute;
+  top:8px;
+  left:8px;
+  width:250px;
+  height: 150px;
+  background-color: aqua;
+  border:3px double burlywood;
+  padding: 5px;
+}
+/* greater x-index is always in the front of an element with a lower z-index*/
+#second{
+    z-index: -3  ;
+    position:absolute;
+    top:20px;
+    left:20px;
+    width: 250px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 4px double brown;
+    padding: 5px;
+}
+
+#third{
+    z-index: 3;
+    position:absolute;
+    top:50px;
+    left:50px;
+    width:250px;
+    height:150x;
+    background-color: coral;
+    border: 5px double azure;
+    padding: 5px;
+}
