@@ -1,0 +1,38 @@
+@media screen and (width:300px){
+    body{
+        color:crimson;
+        background-color:antiquewhite;
+    }
+}
+@media (orientation:landscape){
+    body{
+        font-family: cursive;
+        background-color: rgba(220, 20, 60, 0.527);
+        color: azure;
+    }
+}
+/*combining media queries*/
+@media screen and (width:250px) and (orientation:portrait){
+    body{
+        background-image:url(https://picsum.photos/seed/picsum/200/300) ;
+        background-repeat: no-repeat;
+        background-size: 250px 526px;
+    }
+}
+/* using either of the media queries using comma*/
+@media screen and (width:300px),screen and (orientation:landscape) {
+    body{
+        background-image: url(https://picsum.photos/200/300/?blur);
+        background-repeat: repeat-y;
+        background-size: 800px;
+        color:black;
+    }
+}
+/* using not in the @media where if the media-feature-rule does not apply then the CSS  rules will be followed */
+
+@media not all and (min-width:300px){
+    body{
+        background-color: darkgreen;
+        color: bisque;
+     }
+}
