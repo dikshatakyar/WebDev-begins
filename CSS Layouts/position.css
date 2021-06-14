@@ -1,0 +1,42 @@
+.box-fam,.box{
+  border-radius: 30px;
+}
+.box-fam{
+    background-color: azure;
+}
+.box{
+    background-color: darkorange;
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    text-align:center;
+    position:sticky;
+/*Sticky:fixed+relative*/
+}
+
+/*RELATIVE*/
+.box-1{
+    top: 50px; 
+     /* box-1 goes away 50px from the top when position is relative */
+}
+ /*ABSOLUTE*/
+.box-2{  /*used this in case of absolute:The element is removed from the normal document flow, and no space is created for the element in the page layout*/
+    right: 50px;
+}
+
+
+ /*using FIXED position now:even if we scroll the page,the box will be stuck where it is*/
+
+.box-1{
+    top: 20px;
+}
+.box-2{
+    bottom: 20px;
+}
+.box-3{
+    right: 20px;
+}
+.box-4{
+    bottom: 20px;
+}
+
