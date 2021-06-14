@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property</title>
+    <style>
+        body{
+            margin:auto;
+            width: 90%;
+            background-color: rgba(143, 188, 143, 0.376);
+        }
+        .user{
+           width: 200px;
+           height: 200px;
+           float:right;
+           clip-path: circle(35% at 50% 50%);      
+        }
+/*float:element comes outside of box model and come where the direction is,allowing text to wrap around it*/
+        .resume{
+            background-color: darksalmon;
+        }
+       /* to dismiss float property in a text  */
+       .cleared{
+           clear:both;
+       }
+    </style>
+</head>
+<body>
+    <h1>Float Property</h1>
+    <img class="user" src="user_image.png" alt="imageOfUser">
+    <h1 class="resume">Resume</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam quis eos beatae deserunt est hic omnis! Unde enim, voluptatum nam architecto voluptatem aliquid nesciunt iure, doloribus tempore suscipit porro nostrum in! Impedit natus sint perspiciatis illo, eveniet neque corrupti.</p>
+    <p class="cleared">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam quis eos beatae deserunt est hic omnis! Unde enim, voluptatum nam architecto voluptatem aliquid nesciunt iure, doloribus tempore suscipit porro nostrum in! Impedit natus sint perspiciatis illo, eveniet neque corrupti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam quis eos beatae deserunt est hic omnis! Unde enim, voluptatum nam architecto voluptatem aliquid nesciunt iure, doloribus tempore suscipit porro nostrum in! Impedit natus sint perspiciatis illo, eveniet neque corrupti.</p>
+</body>
+</html>
