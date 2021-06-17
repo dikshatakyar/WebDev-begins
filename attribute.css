@@ -1,0 +1,12 @@
+li[class]{
+    color:blue;
+    font-size: 120%;
+}
+li[class="a"] {
+    background-color: wheat;
+    color: rosybrown;
+}
+li[class~="a"] {
+    background-color: crimson;
+    color: aqua;
+}
