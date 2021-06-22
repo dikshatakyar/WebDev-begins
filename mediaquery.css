@@ -1,0 +1,79 @@
+body{
+    font: 22px Arial bold;
+    background:rgba(201, 135, 56, 0.431);
+}  
+article,
+aside, 
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; 
+}
+
+.last{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 123, 0), 0 0 0.2em rgb(255, 94, 0);
+    border: 3px outset brown;
+    float: right;
+}
+
+h2{
+    margin: 0 0 8px 0;
+}
+p{
+    margin: 0 0 20px 0;
+}
+.first{
+    width:70%;
+    margin:60px;
+    padding: 20px;
+    background: #eee;
+}
+
+.sidebar{
+    width:30%;
+    float:left;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+.sidebar ul li a{
+    padding: 10px 0;
+    color:beige;
+   
+}
+
+@media all and (min-width:1001px){
+    .sidebar ul li a:after{
+        content: "("attr(data-email)")";
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:darkblue;
+    }
+}
+@media all and (max-width:1000px) and (min-width:700px){
+    .sidebar ul li a:before{
+        content:"Email: ";
+        font-family: sans-serif;
+        color: blue;
+    }
+}
+
+@media all and (min-width:520px)  and (max-width:699px), (min-width:1151px) {
+    .sidebar ul li a {
+     padding-left: 10px;
+    background:url(https://picsum.photos/50) left center no-repeat; 
+       
+    }
+}
+
+
+.content{
+    float:right;
+    width: 75%;
+}
