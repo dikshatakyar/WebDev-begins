@@ -1,0 +1,35 @@
+/* p,a{
+    color: brown;
+}
+li{
+    list-style-type: decimal-leading-zero;
+} */
+/* .special{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(255, 0, 85);
+} */
+/* span.special,li.special{
+    font-size: larger;
+    color: blue;   
+} */
+li em{
+    color:rgb(163, 238, 163);
+    background-color: rgb(0, 0, 0);
+}
+/* adjacent combinators: selection of just after h2 that is p tag*/
+h2+p{
+    color: darkmagenta;
+    font-weight: 500%;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: solid;
+}
+
+body h2+p .special{
+    color: brown;
+    background-color: aqua;
+    padding: 12px;
+}
+
