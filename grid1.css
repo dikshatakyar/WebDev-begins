@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(100px,150px));
+    grid-gap: 20px;
+}
+
+.items{
+    background-color: yellow;
+    border: 4px outset darkgoldenrod;
+    text-align: center;
+}
+
+#nav{
+    grid-row-start: 1;
+    grid-row-end: 30;
+}
+
+#header{
+    grid-column-start:2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#article{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 25;
+}
+
+#footer{
+    grid-row-start:25;
+    grid-row-end:30 ;
+    grid-column-start:2;
+    grid-column-end: 9;
+}
+
+#ads{
+    grid-row-start:1;
+    grid-row-end: 25;
+}
