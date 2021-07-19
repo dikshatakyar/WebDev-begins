@@ -1,0 +1,108 @@
+a{
+    animation: bounce  0.9s ease 0s infinite alternate both; 
+    background-color: cadetblue;
+    border-radius: 500px;
+    color: azure;
+    letter-spacing: 0.3em;
+    padding: 40px;
+    position:relative;
+    text-transform: uppercase;
+    margin-top: 200px;
+    display: grid;
+    text-align: center;
+    cursor: pointer;
+}
+
+*{
+    margin: 30px;
+    background-color: bisque;
+}
+
+@keyframes bounce {
+    0% {
+        bottom: 0px;
+        box-shadow: 8px 5px 5px rgba(50, 5, 248, 0.589);
+    }
+
+    100%{
+        bottom: 220px;
+        box-shadow:  0px 50px 50px rgba(50, 5, 248, 0.13);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
