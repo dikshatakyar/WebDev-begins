@@ -1,0 +1,9 @@
+button{
+    border: 3px double darkred;
+    color: aqua;
+    background-color: rgb(255, 80, 80);
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
+    font-size: 30px;
+}
