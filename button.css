@@ -1,0 +1,12 @@
+button{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding: 10px;
+    color: darkorange;
+    background-color: azure;
+    font-weight:bolder;
+    border: 8px outset darkorange;
+    border-radius: 50%;
+
+}
