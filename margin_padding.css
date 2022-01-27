@@ -1,4 +1,4 @@
-
+/* <!--padding contains background color,margin does not contains background color.If margin's parent element has color,it will be shown in margin--> */
 .class3,.class2{
     width: 80px;
     height: 80px;
